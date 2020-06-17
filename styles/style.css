@@ -1,0 +1,127 @@
+body {
+    background-color: white;
+}
+/*Making sure center contents stay where we would like*/
+div.center-div {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+	top:0;
+	bottom: 0;
+	left: 0;
+    right: 0;
+}
+
+#search {
+    padding-left: 10px;
+    width: 70vh;
+    border: none;
+}
+/*Search box container and inner item styling*/
+div.input-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    width: max-content;
+    border-color: #C0C0C0;
+    border-width: 0.5px;
+    border-style: solid;
+    border-radius: 25px;
+}
+ /*The search box hover shadow*/
+div.input-div:hover {
+    box-shadow: 0px 0px 5px 5px #C0C0C0;
+}
+/*Just some padding between items*/
+div.logo-container {
+    margin-bottom: 20px;
+}
+/*Let's press (style) buttons :-D*/
+button {
+    margin-top: 25px;
+    font-size: 15px;
+    padding: 7px 15px 7px 15px;
+    background-color: #f8f8f8;
+    border-radius: 4px;
+    color: #777777;
+    border-width: 1px;
+    box-shadow: none;
+    border: none
+}
+
+button:hover {
+    background-color: #f3f3f3;
+    box-shadow: 0px 0px 0px 1px #919191;
+    color: #000000;
+}
+#lucky-button {
+    margin-left: 5px;
+}
+#lang {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+    word-wrap: break-word;
+}
+a {
+    color: rgb(0, 0, 156);
+    font-size: 12px;
+    text-decoration: none;
+}
+/*Moving things up a bit with an empty div*/
+#empty-div {
+    height: 150px;
+}
+/*So our Google logo doesn't grow wayward*/
+#logo {
+    max-width: 90%;
+}
+/*Top right contents*/
+nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 20px;
+}
+
+p {
+    padding-right: 20px;
+    font-size: 12px;
+}
+/*Logo styling. Mine OFC, don't be funny*/
+#baseline {
+    width: 35px;
+    height: auto;
+    margin-left: 20px;
+}
+/*Whatever happens at the bottom stays at the bottom*/
+.bottom-box {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #eeeeee;
+    padding-left: 20px;
+}
+
+.lower-p {
+    color: #424242;
+    font-size: 13px;
+}
+
+#lower-bottom {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 20px;
+    border-top: solid #e2e2e2;
+    flex-wrap: wrap;
+}
+.lowest-end {
+    display: flex;
+}
