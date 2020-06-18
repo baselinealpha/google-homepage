@@ -94,7 +94,14 @@ nav {
     align-items: center;
     padding-right: 20px;
 }
-
+#top-left {
+    display: flex;
+    align-items: center;
+}
+#top-right {
+    display: flex;
+    align-items: center;
+}
 p {
     padding-right: 20px;
     font-size: 12px;
@@ -156,6 +163,21 @@ p {
     }
     nav {
         position: static;
-        margin-bottom: 100px;
+        margin-bottom: 60px;
+    }
+    .buttons-div {
+        display: none;
+    }
+    i.material-icons {
+        float: right;
+    }
+    input {
+        float: left;
+    }
+    img#logo {
+        width: 45vw;
+    }
+    nav {
+        justify-content: space-between;
     }
 }
