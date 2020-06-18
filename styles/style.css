@@ -36,6 +36,9 @@ div.input-div {
 div.input-div:hover {
     box-shadow: 0px 0px 5px 5px #C0C0C0;
 }
+input[type=text]:focus, input[type=text]:hover {
+    outline: none;
+}
 /*Just some padding between items*/
 div.logo-container {
     margin-bottom: 20px;
