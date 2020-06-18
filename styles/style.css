@@ -65,7 +65,8 @@ button:hover {
     display: flex;
     align-items: center;
     margin-top: 15px;
-    word-wrap: break-word;
+    /*mobile support*/
+    flex-wrap: wrap;
 }
 a {
     color: rgb(0, 0, 156);
@@ -123,5 +124,9 @@ p {
     flex-wrap: wrap;
 }
 .lowest-end {
+    display: flex;
+}
+/*Some mobile support*/
+.lang-list {
     display: flex;
 }
