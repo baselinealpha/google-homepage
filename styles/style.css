@@ -67,6 +67,8 @@ button:hover {
     margin-top: 15px;
     /*mobile support*/
     flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
 }
 a {
     color: rgb(0, 0, 156);
@@ -129,4 +131,5 @@ p {
 /*Some mobile support*/
 .lang-list {
     display: flex;
+    align-items: center;
 }
