@@ -148,4 +148,14 @@ p {
     #lower-bottom {
         justify-content: center;
     }
+    div.center-div {
+        position: static;
+    }
+    .bottom-box {
+        position: fixed;
+    }
+    nav {
+        position: static;
+        margin-bottom: 100px;
+    }
 }
