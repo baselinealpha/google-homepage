@@ -1,6 +1,5 @@
 body {
     background-color: white;
-    overflow: hidden;
 }
 /*Making sure center contents stay where we would like*/
 div.center-div {
@@ -116,6 +115,7 @@ p {
     flex-direction: column;
     background-color: #eeeeee;
     padding-left: 0px;
+    padding-bottom: 0 !important;
 }
 
 .lower-p {
