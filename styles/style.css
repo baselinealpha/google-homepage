@@ -1,5 +1,6 @@
 body {
     background-color: white;
+    overflow: hidden;
 }
 /*Making sure center contents stay where we would like*/
 div.center-div {
@@ -139,4 +140,9 @@ p {
 .lang-list {
     display: flex;
     align-items: center;
+}
+@media (max-width: 500px) {
+    .end1 {
+        display: none;
+    }
 }
