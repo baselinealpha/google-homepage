@@ -168,16 +168,13 @@ p {
     .buttons-div {
         display: none;
     }
-    i.material-icons {
-        float: right;
-    }
-    input {
-        float: left;
-    }
     img#logo {
         width: 45vw;
     }
     nav {
         justify-content: space-between;
+    }
+    .input-div {
+        width: 90vw;
     }
 }
