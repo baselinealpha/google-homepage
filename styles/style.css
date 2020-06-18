@@ -69,6 +69,7 @@ button:hover {
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+    text-align: center;
 }
 a {
     color: rgb(0, 0, 156);
